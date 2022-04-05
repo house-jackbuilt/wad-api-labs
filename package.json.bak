@@ -4,16 +4,24 @@
   "description": "node lab 1",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec babel-node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/house-jackbuilt/wad-api-labs.git"
   },
-  "author": "house_jackbuilt",
+  "author": "house-jackbuilt",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/house-jackbuilt/wad-api-labs/issues"
   },
-  "homepage": "https://github.com/house-jackbuilt/wad-api-labs#readme"
+  "homepage": "https://github.com/house-jackbuilt/wad-api-labs#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  }
 }
